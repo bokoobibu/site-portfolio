@@ -1,0 +1,81 @@
+
+<!DOCTYPE html> 
+<html lang="ru"> 
+  <head> 
+    <title>Страница проектов</title>
+    <link rel="stylesheet" href="css/reset.css"> 
+    <link rel="stylesheet" href="css/style.css"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon"> 
+    <script defer src="script.js"></script>
+  </head> 
+  <body> 
+    <header class="header header-hidden"> 
+      <div class="container header__container">
+        <button class="header__button" onclick="showHeader();">&equiv;</button>
+        <nav class="header__navigation"> 
+          <ul class="header__list"> 
+            <li class="header__item">
+              <a href="index.html" class="header__link">Главная</a>
+            </li> 
+            <li class="header__item">
+              <a href="projects.html" class="header__link">Проекты</a>
+            </li> 
+            <li class="header__item">
+              <a href="skills.html" class="header__link">Навыки</a>
+            </li> 
+            <li class="header__item">
+              <a href="contacts.html" class="header__link">Контакты</a>
+            </li> 
+          </ul> 
+        </nav> 
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <h1 class="main__title title">Контакты</h1> 
+        <h2 class="main__sub-title title">Свяжитесь со мной</h2> 
+        <form action="mailto:bokoobibu@gmail.com" method="POST" enctype="text/plain" class="main__form"> 
+            <label for="name" class="main__label">Имя:
+                <input type="text" id="name" name="name" required class="main__input">
+            </label> 
+            <label for="email" class="main__label">Email:
+                <input type="email" id="email" name="email" required class="main__input">
+            </label>
+            <label for="message" class="main__label">Сообщение:
+                <textarea id="message" name="message" required class="main__input"></textarea> 
+            </label>   
+            <input type="submit" value="Отправить" class="main__input">
+        </form> 
+        <h2 class="main__sub-title title">Социальные сети</h2> 
+        <ul class="main__list"> 
+            <li class="main__item">
+                <a href="https://telegram.im/@LieKalier" class="main__contact-social flex-center">
+                    <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                    <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" stroke-width="3" stroke="#000000" fill="none" class="main__contact-img">
+                        <path d="M26.67,38.57l-.82,11.54A2.88,2.88,0,0,0,28.14,49l5.5-5.26,11.42,8.35c2.08,1.17,3.55.56,4.12-1.92l7.49-35.12h0c.66-3.09-1.08-4.33-3.16-3.55l-44,16.85C6.47,29.55,6.54,31.23,9,32l11.26,3.5L45.59,20.71c1.23-.83,2.36-.37,1.44.44Z" stroke-linecap="round"/>
+                    </svg>
+                </a>
+            </li> 
+            <li class="main__item">
+                <a href="https://vk.com/im?sel=204839311" class="main__contact-social flex-center">
+                    <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                    <svg fill="#000000" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" class="main__contact-img">
+                        <path d="M3 248c0-38 26-53 58-55l149 1c9 0 17 6 20 15 34 110 76 178 126 255 3 6 8 9 13 9 4 0 8-2 11-7l3-11 1-173c0-25-12-29-40-33-11-2-18-12-18-22 0-2 0-4 1-6 14-43 58-65 120-65l56-1c46 0 88 20 88 79v227c4 3 8 5 13 5 8 0 18-5 26-18 52-73 111-160 119-206 0-2 1-3 2-5 11-22 39-37 51-41 2-1 5-2 9-2h155l10 1c15 0 26 10 31 19 9 14 7 29 8 35v7c-15 91-119 193-163 259-6 8-9 15-9 22 0 6 3 12 8 18l146 184c8 11 12 24 12 35 0 33-31 52-61 55l-17 1H779c-3 0-5 1-8 1-17 0-31-9-41-19-32-39-63-79-94-118-6-8-8-9-14-13-7 29-13 59-20 89l-3 17c-5 18-18 37-42 42l-14 1h-98C272 830 117 584 8 277c-3-8-5-19-5-29zm601 259c-26 0-55-15-55-43V234c0-27-12-37-45-37l-57 2c-32 0-50 5-65 15 23 11 44 26 44 68v176c-3 35-32 58-60 58-19 0-36-11-46-29-45-68-83-132-116-224l-9-26-133-1c-18 0-16 1-16 10 0 6 1 14 2 19l21 56c109 282 246 467 376 467h100c14 0 13-17 16-27l19-88c4-9 7-17 14-24 8-8 17-11 26-11 19 0 37 15 49 29l85 108c7 11 13 13 17 13h165c16 0 30-5 30-15 0-3-1-7-3-10L818 582c-12-15-17-30-17-45 0-16 6-32 16-46 42-63 132-153 153-227l3-13c-1-5-1-9-2-14H814c-10 4-18 10-24 18l-6 19c-23 64-86 152-131 213-15 14-32 20-49 20z"/>
+                    </svg>
+                </a>
+            </li> 
+            <li class="main__item">
+                <a href="https://steamcommunity.com/chat/liekalier/#cP5khp8L" class="main__contact-social flex-center">
+                    <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                    <svg fill="#000000" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" class="main__contact-img">
+                        <path d="M760 40c54 0 128 30 163 65l30 30c37 39 60 104 64 160v37c-8 116-89 204-183 236-54 19-71 8-87 20L547 735c-9 7-12 8-17 12-14 113-113 176-211 176-71 0-140-33-177-104-13-25-14-34-19-46l-99-40c-8-3-18-9-20-21l-2-12V487c1-21 13-32 29-32 4 0 8 1 13 2 61 25 123 48 183 74l16-7c33-14 52-16 88-16 5-7 12-17 16-23l89-127c7-9 31-43 39-57 6-89 34-135 89-191 43-41 119-70 196-70zM326 552c-34 0-44 4-84 21-5 2-10 3-14 3-12 0-24-7-34-11-49-20-99-40-148-60v189l99 40c25 12 19 34 36 65 28 55 83 80 139 80 76 0 152-47 165-132l2-11c3-19 16-24 33-37l201-147c29-21 53-10 99-26 78-27 146-100 153-197v-32c-3-45-23-97-52-131l-29-29c-35-32-93-53-150-53-30 0-61 6-88 19-85 42-131 110-139 216-6 11-38 57-44 65l-88 126c-15 16-15 39-40 42h-17zm-9 283c-22 0-45-11-58-20-11-8-33-26-37-40 24 6 57 29 94 29 20 0 42-8 64-28 19-18 29-44 29-70-4-64-50-91-104-106 2-3 1-4 6-4h11c73 0 121 57 121 119 0 60-42 120-126 120zm303-530c0-73 59-133 132-133s133 60 133 133-60 132-133 132-132-59-132-132zm44 0c0 49 39 88 88 88s89-39 89-88-40-89-89-89-88 40-88 89z"/>
+                    </svg>
+                </a>
+            </li>
+        </ul>  
+      </div>
+    </main>
+  </body> 
+</html>
+    

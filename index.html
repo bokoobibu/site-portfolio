@@ -1,0 +1,93 @@
+<!DOCTYPE html> 
+<html lang="ru"> 
+  <head> 
+    <title>Моя страница</title> 
+    <link rel="stylesheet" href="css/reset.css"> 
+    <link rel="stylesheet" href="css/style.css"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon"> 
+    <script defer src="script.js"></script>
+  </head> 
+  <body> 
+    <header class="header header-hidden"> 
+      <div class="container header__container">
+        <button class="header__button" onclick="showHeader();">&equiv;</button>
+        <nav class="header__navigation"> 
+          <ul class="header__list"> 
+            <li class="header__item">
+              <a href="index.html" class="header__link">Главная</a>
+            </li> 
+            <li class="header__item">
+              <a href="projects.html" class="header__link">Проекты</a>
+            </li> 
+            <li class="header__item">
+              <a href="skills.html" class="header__link">Навыки</a>
+            </li> 
+            <li class="header__item">
+              <a href="contacts.html" class="header__link">Контакты</a>
+            </li> 
+          </ul> 
+        </nav> 
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <h1 class="main__title title">Добро пожаловать на мою страницу!</h1>
+        <h2 class="main__sub-title title">Введение и краткое описание</h2>
+        <p class="main__text text-center">Здесь вы найдете информацию обо мне и моих навыках.</p>
+        <section class="main__skills">
+          <h2 class="main__sub-title title">Навыки и области специализации</h2>
+          <ul class="main__list">
+            <li class="main__item">
+              <h3 class="main__item-title title">HTML</h3>  
+              <div class="progress-bar">
+                <div class="progress"></div>
+              </div>         
+            </li>
+            <li class="main__item">
+              <h3 class="main__item-title title">CSS</h3>
+              <div class="progress-bar">
+                <div class="progress"></div>
+              </div>         
+            </li>
+            <li class="main__item">
+              <h3 class="main__item-title title">JavaScript</h3>
+              <div class="progress-bar">
+                <div class="progress"></div>
+              </div>         
+            </li>
+          </ul>
+        </section>
+        <section class="main__projects">
+          <h2 class="main__sub-title title">Лучшие проекты</h2>
+          <ul class="main__list">
+            <li class="main__item-little">
+              <a href="#" class="main__item-link">
+                <div class="main__img-block">
+                  <img src="img/project-1.JPG" alt="Проект 1" class="main__img">
+                </div>
+                <p class="main__item-text">Сайт визитка со стильным фоном</p>
+              </a>
+            </li>
+            <li class="main__item-little">
+              <a href="#" class="main__item-link">
+                <div class="main__img-block">
+                  <img src="img/project-2.JPG" alt="Проект 2" class="main__img">
+                </div>
+                <p class="main__item-text">Сайт для предоставления калькулятора</p>
+              </a>
+            </li>
+            <li class="main__item-little">
+              <a href="#" class="main__item-link">
+                <div class="main__img-block">
+                  <img src="img/project-3.JPG" alt="Проект 3" class="main__img">
+                </div>
+                <p class="main__item-text">Сайт для сохранения дел</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+  </body> 
+</html>
